@@ -23,7 +23,7 @@ SQUARE_SIZE = (35, 35)
 
 
 class MainWindow(QtWidgets.QMainWindow):
-    def __init__(self, settings, show=True, fps=200):
+    def __init__(self, settings, show=True, fps=600):
         super().__init__()
         self.setAutoFillBackground(True)
         palette = self.palette()
